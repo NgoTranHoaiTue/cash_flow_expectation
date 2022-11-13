@@ -94,7 +94,7 @@ Dùng để tính toán lượng tiền gửi tiết kiệm/trả nợ vay theo 
 
 Cấu trúc như sau:
 
->$$numpy-financial.pmt(rate, nper, pv, fv=0, when='end')$$
+>$$numpy-financial.pmt(rate, nper, pv, fv, when='end')$$
 ##### **3. Phương pháp tạo giao diện**
 - **Bước 01**: Nhập các thư viện vào, tiêu biểu là pandas, numpy, Streamlit
 - **Bước 02**: Thu thập, chuẩn bị sẵn bộ dữ liệu lãi suất kỳ hạn tiết kiệm/vay của các ngân hàng
